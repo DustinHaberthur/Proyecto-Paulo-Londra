@@ -448,7 +448,7 @@ font-family: Merriweather sans;
 
 .comentarios article span {
     font-size: 0.9rem;
-    margin-top: 25px;
+    margin-top: 0px;
     color: #666;
     font-family: Merriweather sans;
   }
@@ -456,6 +456,26 @@ font-family: Merriweather sans;
 
 
   @media screen and (max-width:750px){
+    .inicio img{
+        width: 300px;
+        height: 300px;
+        margin-left: 45px;
+    }
+
+    .infoInicio {
+        margin-bottom: 10px;
+    }
+
+
+    .imagenContenido  {
+        width: 220px;
+        height: 220px;
+        margin: 5px auto 30px;
+        box-shadow: 10px 20px 50px 10px;
+        border-radius: 40%;
+        margin-top: 30px;
+    }
+
     #mainBiografia{
         flex-wrap: wrap;
         justify-content: center;
@@ -465,6 +485,14 @@ font-family: Merriweather sans;
         margin: 0;
     }
 
+    .comentarios p {
+        font-size: 12px;
+    }
+
+    .comentarios span {
+        display: none;
+    }
+    
     .cancionesAlbumes .contenedor {
         justify-content: center;
         flex-wrap: wrap;
@@ -475,9 +503,15 @@ font-family: Merriweather sans;
         height: auto;
     }
 
-    .comentarios article {
-        width: 50%;
+    .galeriaFotos {
+        grid-template-areas: 
+        "img2  img2  img2  img2"
+        "img4  img4  img5  img5"
+        "img6  img6   img8  img8"
+        ;
+        
     }
+
 }
 
 
