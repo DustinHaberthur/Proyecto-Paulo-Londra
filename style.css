@@ -467,19 +467,26 @@ ul {
 
 
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:768px) {
 
     #footer {
     height: 80px;
 }
 
     #footer h3 {
-        font-size: 14px;
+        font-size: 12px;
     }
 
+    #footer i{
+        font-size: 12px;
+    }
 
     .footerCopy {
         margin-top: 12px;
+    }
+
+    .footerRedesSitio, .footerRedesPaulo {
+        padding-right: 10px;
     }
 
     /*INDEX*/
@@ -490,6 +497,7 @@ ul {
     }
 
     .inicio img {
+        margin-top: 15px;
         width: 300px;
         height: 300px;
         margin-left: 45px;
