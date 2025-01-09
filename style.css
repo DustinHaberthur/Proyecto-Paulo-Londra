@@ -121,7 +121,7 @@ ul {
 
 
 
-.contenido {
+.contenidoBiografia{
     display: flex;
     text-align: center;
     margin-left: 15px;
@@ -217,7 +217,7 @@ ul {
     width: 100%;
 }
 
-.contenedor {
+.contenedorDiscografia {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -425,7 +425,7 @@ ul {
 .comentarios article {
     display: flex;
     flex-direction: column;
-    padding-top: 35px;
+    padding-top: 10px;
     width: 30%;
     height: 340px;
     text-align: center;
@@ -469,6 +469,9 @@ ul {
 
 @media screen and (max-width:750px) {
 
+    #footer {
+    height: 80px;
+}
 
     #footer h3 {
         font-size: 14px;
@@ -494,8 +497,15 @@ ul {
 
     /*BIOGRAFIA*/
 
+    .contenidoBiografia{
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
     .datosCuriosos {
         width: 80%;
+        margin-right: 0px;
     }
 
     .imagenContenido {
@@ -517,15 +527,21 @@ ul {
     }
 
     /*DISCOGRAFIA*/
+    
+    .contenedorDiscografia{
+        flex-direction: column;
+    }
 
     .canciones {
+        align-self: center;
         width: 80%;
         margin-left: 0px;
+        margin-right: 0px;
     }
 
     .albumes {
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-right: 0px;
+        margin-left: 0px;
         margin-top: 100px;
     }
 
@@ -554,6 +570,8 @@ ul {
     }
 
     /*GALERIA*/
+
+    
 
     .galeriaFotos {
         width: 100%;
