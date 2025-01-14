@@ -1,0 +1,607 @@
+/*GENERAL*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+#body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/*NAVBAR*/
+
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+
+}
+
+.navbar {
+    border-bottom: 2px solid #4e669798;
+    box-shadow: 0 3px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/*FOOTER*/
+
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px -4px 20px 0 rgba(0, 0, 0, 0.37);
+    border-top: 2px solid #4e669798;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    font-family: inter;
+    font-size: 5px;
+    margin-top: 10px;
+}
+
+
+#footer i {
+    font-size: 20px;
+}
+
+#footer h3 {
+    font-size: 15px;
+}
+
+/*INDEX*/
+
+
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.inicio img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    margin-right: 50px;
+    box-shadow: 10px 20px 50px 10px;
+}
+
+
+.infoInicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.infoInicio h1 {
+    font-family: Roboto Slab;
+    font-size: 50px;
+}
+
+.infoInicio h2,
+.infoInicio p {
+    font-family: Merriweather sans;
+}
+
+.infoInicio p {
+    margin-top: 80px;
+    font-size: 30px;
+    color: rgb(2, 2, 2);
+}
+
+
+
+/*BIOGRAFIA*/
+
+
+#mainBiografia {
+    display: flex;
+    height: auto;
+}
+
+
+
+.contenidoBiografia{
+    display: flex;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 100px;
+    justify-content: center;
+    flex-direction: column;
+    width: 85%;
+    gap: 100px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.titContenido {
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 50px;
+    margin: 0px
+}
+
+
+.textoContenido {
+    font-size: 16px;
+    font-family: Merriweather sans;
+    margin: 0px
+}
+
+.proxProyectos {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px
+}
+
+.proxProyectos h2 {
+    font-family: Roboto Slab;
+    text-align: center;
+    margin: 0px
+}
+
+.proxProyectos p {
+    font-family: Merriweather sans;
+    text-align: center;
+    margin: 0px
+}
+
+
+.imagenContenido {
+    width: 350px;
+    height: 350px;
+    margin: 5px auto 30px;
+    box-shadow: 10px 20px 50px 10px;
+    border-radius: 40%;
+}
+
+.datosCuriosos {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    row-gap: 10px;
+    margin-right: 30px;
+}
+
+.datosCuriosos h2 {
+    font-family: Roboto Slab;
+    text-align: center;
+}
+
+.datosCuriosos p {
+    font-family: Merriweather sans;
+    margin-bottom: 20px;
+}
+
+
+/*DISCOGRAFIA*/
+
+
+
+.titDiscografia {
+    text-align: center;
+    width: 100%;
+    font-family: Roboto Slab;
+    font-size: 50px;
+}
+
+
+.cancionesAlbumes {
+    text-align: center;
+    width: 100%;
+}
+
+.contenedorDiscografia {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.canciones {
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.canciones h2 {
+    font-family: Roboto Slab;
+    font-size: 30px;
+}
+
+.canciones ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    margin-top: 25px;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+
+.albumes {
+    margin-right: 60px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+
+}
+
+.albumes h2 {
+    font-family: 'Roboto Slab';
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.albumContainer {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.albumContainer p {
+    font-family: Merriweather sans;
+}
+
+.albumHomerun,
+.albumBack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.imgHomerun,
+.imgBack {
+    margin-bottom: 20px;
+    border-radius: 60px;
+    box-shadow: 5px 5px 20px 5px;
+    width: 200px;
+    height: 200px;
+}
+
+/*FANS*/
+
+
+.titulosFans {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-top: 35px;
+    row-gap: 30px;
+}
+
+.titulosFans h1 {
+    font-family: Roboto Slab;
+    font-size: 50px;
+}
+
+.titulosFans h2 {
+    font-family: Merriweather sans;
+}
+
+.comentarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: auto;
+}
+
+.comentarios article {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    width: 30%;
+    height: 340px;
+    text-align: center;
+    margin: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.comentarios h3 {
+    font-family: Roboto Slab;
+}
+
+.comentarios p {
+    font-family: Merriweather sans;
+    font-size: 20px;
+}
+
+.comentarioHeader {
+    margin-bottom: 30px;
+}
+
+.comentarioHeader img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    box-shadow: 5px 8px 8px 0 rgba(0, 0, 0, 0.37);
+}
+
+.comentarios article span {
+    font-size: 0.9rem;
+    margin-top: 0px;
+    color: #666;
+    font-family: Merriweather sans;
+}
+
+
+/*GALERIA*/
+
+
+.titGaleria {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto Slab;
+    font-size: 50px;
+    width: 100%;
+}
+
+.galeriaFotos {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    grid-template-areas:
+        "img1  img2  img2  img3"
+        "img4  img4  img5  img5"
+        "img6  img7   img8  img9"
+    ;
+
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.galeriaFotos picture {
+    display: flex;
+    justify-self: center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border: 3px solid #4e669798;
+    box-shadow: 20px 20px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.img1 {
+    grid-area: img1;
+    background-image: url(../images/img1.png);
+}
+
+.img2 {
+    grid-area: img2;
+    background-image: url(../images/img2.jpg);
+    background-position: center;
+}
+
+.img3 {
+    grid-area: img3;
+    background-image: url(../images/img3.jpg);
+}
+
+.img4 {
+    grid-area: img4;
+    background-image: url(../images/img4.jpg);
+    background-position: center;
+}
+
+.img5 {
+    grid-area: img5;
+    background-image: url(../images/img5.jpg);
+    background-position: center;
+}
+
+.img6 {
+    grid-area: img6;
+    background-image: url(../images/img6.jpg);
+    background-position: center
+}
+
+.img7 {
+    grid-area: img7;
+    background-image: url(../images/img7.jpg);
+}
+
+.img8 {
+    grid-area: img8;
+    background-image: url(../images/img8.jpg);
+}
+
+.img9 {
+    grid-area: img9;
+    background-image: url(../images/img9.jpg);
+}
+
+
+
+
+@media screen and (max-width:768px) {
+
+    #footer {
+    height: 80px;
+}
+
+    #footer h3 {
+        font-size: 12px;
+    }
+
+    #footer i{
+        font-size: 12px;
+    }
+
+    .footerCopy {
+        margin-top: 12px;
+    }
+
+    .footerRedesSitio, .footerRedesPaulo {
+        padding-right: 10px;
+    }
+
+    /*INDEX*/
+
+
+    .infoInicio {
+        width: 85%;
+        margin-bottom: 10px;
+    }
+
+    .inicio img {
+        margin-top: 15px;
+        width: 300px;
+        height: 300px;
+        margin-left: 45px;
+    }
+
+    /*BIOGRAFIA*/
+
+
+    .contenidoBiografia{
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+    .datosCuriosos {
+        width: 80%;
+        margin-right: 0px;
+    }
+
+    .imagenContenido {
+        width: 220px;
+        height: 220px;
+        margin: 5px auto 30px;
+        box-shadow: 10px 20px 50px 10px;
+        border-radius: 40%;
+        margin-top: 30px;
+    }
+
+    #mainBiografia {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #mainBiografia .contenido {
+        margin: 0;
+    }
+
+    /*DISCOGRAFIA*/
+
+    
+    .contenedorDiscografia{
+        flex-direction: column;
+    }
+
+    .canciones {
+        align-self: center;
+        width: 80%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .albumes {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+
+    /*FANS*/
+
+
+    .comentarios p {
+        font-size: 20px;
+    }
+
+    .comentarios article {
+        width: 70%;
+    }
+
+    .comentarios span {
+        display: none;
+    }
+
+    .cancionesAlbumes .contenedor {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contenedorTitulosFans .comentarios {
+        flex-direction: column;
+        height: auto;
+    }
+
+    /*GALERIA*/
+
+    
+
+    .galeriaFotos {
+        width: 100%;
+        height: 100vh;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+
+        grid-template-areas:
+            "img2  img2"
+            "img4  img5"
+            "img6  img8"
+        ;
+    }
+
+}

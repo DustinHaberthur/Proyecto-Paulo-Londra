@@ -1,0 +1,97 @@
+/*FANS*/
+
+
+.titulosFans {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-top: 35px;
+    row-gap: 30px;
+}
+
+.titulosFans h1 {
+    font-family: Roboto Slab;
+    font-size: 50px;
+}
+
+.titulosFans h2 {
+    font-family: Merriweather sans;
+}
+
+.comentarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: auto;
+}
+
+.comentarios article {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    width: 30%;
+    height: 340px;
+    text-align: center;
+    margin: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.comentarios h3 {
+    font-family: Roboto Slab;
+}
+
+.comentarios p {
+    font-family: Merriweather sans;
+    font-size: 20px;
+}
+
+.comentarioHeader {
+    margin-bottom: 30px;
+}
+
+.comentarioHeader img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    box-shadow: 5px 8px 8px 0 rgba(0, 0, 0, 0.37);
+}
+
+.comentarios article span {
+    font-size: 0.9rem;
+    margin-top: 0px;
+    color: #666;
+    font-family: Merriweather sans;
+}
+
+@media screen and (max-width:768px) {
+
+    .comentarios p {
+        font-size: 20px;
+    }
+
+    .comentarios article {
+        width: 70%;
+    }
+
+    .comentarios span {
+        display: none;
+    }
+
+    .cancionesAlbumes .contenedor {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contenedorTitulosFans .comentarios {
+        flex-direction: column;
+        height: auto;
+    }
+}

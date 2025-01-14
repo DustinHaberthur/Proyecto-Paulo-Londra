@@ -1,0 +1,16 @@
+/*NAVBAR*/
+
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+
+}
+
+.navbar {
+    border-bottom: 2px solid #4e669798;
+    box-shadow: 0 3px 32px 0 rgba(0, 0, 0, 0.37);
+}

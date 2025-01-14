@@ -1,0 +1,121 @@
+/*DISCOGRAFIA*/
+
+
+
+.titDiscografia {
+    text-align: center;
+    width: 100%;
+    font-family: Roboto Slab;
+    font-size: 50px;
+}
+
+
+.cancionesAlbumes {
+    text-align: center;
+    width: 100%;
+}
+
+.contenedorDiscografia {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.canciones {
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.canciones h2 {
+    font-family: Roboto Slab;
+    font-size: 30px;
+}
+
+.canciones ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    margin-top: 25px;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+
+.albumes {
+    margin-right: 60px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+
+}
+
+.albumes h2 {
+    font-family: 'Roboto Slab';
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.albumContainer {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.albumContainer p {
+    font-family: Merriweather sans;
+}
+
+.albumHomerun,
+.albumBack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.imgHomerun,
+.imgBack {
+    margin-bottom: 20px;
+    border-radius: 60px;
+    box-shadow: 5px 5px 20px 5px;
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width:768px) {
+
+    .contenedorDiscografia{
+        flex-direction: column;
+    }
+
+    .canciones {
+        align-self: center;
+        width: 80%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .albumes {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+}

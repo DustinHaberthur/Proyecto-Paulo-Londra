@@ -1,0 +1,119 @@
+/*BIOGRAFIA*/
+
+
+#mainBiografia {
+    display: flex;
+    height: auto;
+}
+
+
+
+.contenidoBiografia{
+    display: flex;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 100px;
+    justify-content: center;
+    flex-direction: column;
+    width: 85%;
+    gap: 100px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.titContenido {
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 50px;
+    margin: 0px
+}
+
+
+.textoContenido {
+    font-size: 16px;
+    font-family: Merriweather sans;
+    margin: 0px
+}
+
+.proxProyectos {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px
+}
+
+.proxProyectos h2 {
+    font-family: Roboto Slab;
+    text-align: center;
+    margin: 0px
+}
+
+.proxProyectos p {
+    font-family: Merriweather sans;
+    text-align: center;
+    margin: 0px
+}
+
+
+.imagenContenido {
+    width: 350px;
+    height: 350px;
+    margin: 5px auto 30px;
+    box-shadow: 10px 20px 50px 10px;
+    border-radius: 40%;
+}
+
+.datosCuriosos {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    row-gap: 10px;
+    margin-right: 30px;
+}
+
+.datosCuriosos h2 {
+    font-family: Roboto Slab;
+    text-align: center;
+}
+
+.datosCuriosos p {
+    font-family: Merriweather sans;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:768px) {
+    
+    .contenidoBiografia{
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+    .datosCuriosos {
+        width: 80%;
+        margin-right: 0px;
+    }
+
+    .imagenContenido {
+        width: 220px;
+        height: 220px;
+        margin: 5px auto 30px;
+        box-shadow: 10px 20px 50px 10px;
+        border-radius: 40%;
+        margin-top: 30px;
+    }
+
+    #mainBiografia {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #mainBiografia .contenido {
+        margin: 0;
+    }
+}
