@@ -10,6 +10,11 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 768px) {
+  #body {
+    background-position: center right;
+  }
+}
 #main {
   display: flex;
   justify-content: center;
@@ -70,6 +75,7 @@ ul {
     padding-right: 10px;
   }
 }
+/*PAGINAS*/
 /*INDEX*/
 .inicio {
   display: flex;
@@ -85,6 +91,15 @@ ul {
   border-radius: 50%;
   margin-right: 50px;
   box-shadow: 10px 20px 50px 10px;
+}
+
+.hoverScale {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.hoverScale:hover {
+  transform: scale(1.1, 1.1);
 }
 
 .infoInicio {
@@ -142,7 +157,7 @@ ul {
   margin-right: 100px;
   justify-content: center;
   flex-direction: column;
-  width: 85%;
+  width: 40%;
   gap: 100px;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
   backdrop-filter: blur(10px);
@@ -216,6 +231,7 @@ ul {
     margin-top: 20px;
     margin-left: 0px;
     margin-right: 0px;
+    width: 85%;
   }
   .datosCuriosos {
     width: 80%;
@@ -243,6 +259,7 @@ ul {
   width: 100%;
   font-family: Roboto Slab;
   font-size: 50px;
+  margin-top: 20px;
 }
 
 .cancionesAlbumes {
@@ -259,28 +276,20 @@ ul {
 
 .canciones {
   width: 30%;
-  margin-top: 25px;
+  margin-top: 50px;
   margin-left: 100px;
 }
 
 .canciones h2 {
   font-family: Roboto Slab;
   font-size: 30px;
+  margin-bottom: 30px;
 }
 
-.canciones ul {
-  display: flex;
-  flex-direction: column;
-  row-gap: 50px;
-  margin-top: 25px;
-  font-family: Roboto Slab;
-  font-size: 30px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+.canciones iframe {
+  width: 400px;
+  height: 600px;
+  box-shadow: 5px 5px 20px 5px;
 }
 
 .albumes {
@@ -325,11 +334,18 @@ ul {
 
 .imgHomerun,
 .imgBack {
+  margin-top: 10px;
   margin-bottom: 20px;
   border-radius: 60px;
   box-shadow: 5px 5px 20px 5px;
   width: 200px;
   height: 200px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.imgHomerun:hover, .imgBack:hover {
+  transform: scale(1.1, 1.1);
 }
 
 @media screen and (max-width: 768px) {
@@ -342,10 +358,22 @@ ul {
     margin-left: 0px;
     margin-right: 0px;
   }
+  .canciones iframe {
+    width: 100%;
+    height: 400px;
+  }
   .albumes {
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 100px;
+  }
+  .albumContainer {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .contenedorDiscografia {
+    flex-direction: column;
+    align-items: center;
   }
 }
 /*FANS*/
@@ -406,8 +434,8 @@ ul {
 }
 
 .comentarioHeader img {
-  height: 50px;
-  width: 50px;
+  height: 90px;
+  width: 90px;
   border-radius: 50px;
   box-shadow: 5px 8px 8px 0 rgba(0, 0, 0, 0.37);
 }
@@ -450,7 +478,7 @@ ul {
 .galeriaFotos {
   width: 100%;
   height: 100vh;
-  padding: 10px;
+  padding: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -472,50 +500,91 @@ ul {
 .img1 {
   grid-area: img1;
   background-image: url(../images/img1.png);
+  transform: scale(1);
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
 }
 
 .img2 {
   grid-area: img2;
   background-image: url(../images/img2.jpg);
   background-position: center;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
 }
 
 .img3 {
   grid-area: img3;
   background-image: url(../images/img3.jpg);
+  transform: scale(1);
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
 }
 
 .img4 {
   grid-area: img4;
   background-image: url(../images/img4.jpg);
   background-position: center;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
 }
 
 .img5 {
   grid-area: img5;
   background-image: url(../images/img5.jpg);
   background-position: center;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
 }
 
 .img6 {
   grid-area: img6;
   background-image: url(../images/img6.jpg);
   background-position: center;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
 }
 
 .img7 {
   grid-area: img7;
   background-image: url(../images/img7.jpg);
+  transform: scale(1);
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
 }
 
 .img8 {
   grid-area: img8;
   background-image: url(../images/img8.jpg);
+  transform: scale(1);
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
 }
 
 .img9 {
   grid-area: img9;
   background-image: url(../images/img9.jpg);
+  transform: scale(1);
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover, .img7:hover, .img8:hover, .img9:hover {
+  transform: scale(1.1, 1.1);
+  z-index: 10;
 }
 
 @media screen and (max-width: 768px) {

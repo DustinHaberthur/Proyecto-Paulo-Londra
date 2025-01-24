@@ -14,6 +14,13 @@
     background-size: cover;
 }
 
+@media screen and (max-width:768px) {
+    #body {
+        background-position: center right;
+        
+    }
+}
+
 #main {
     display: flex;
     justify-content: center;

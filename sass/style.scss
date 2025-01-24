@@ -1,8 +1,10 @@
-@import "general";
-@import "navBar";
-@import "footer";
-@import "index";
-@import "biografia";
-@import "discografia";
-@import "fans";
-@import "galeria";
+@use "general";
+@use "navBar";
+@use "footer";
+
+/*PAGINAS*/
+@use "index";
+@use "biografia";
+@use "discografia";
+@use "fans";
+@use "galeria";
