@@ -49,7 +49,7 @@
 .img2 {
     grid-area: img2;
     background-image: url(./images/img2.jpg);
-    background-position: center;
+    background-position-y: 7%;
     transform: scale(1); 
     transition: transform 0.3s ease;
     position: relative; 
@@ -68,7 +68,7 @@
 .img4 {
     grid-area: img4;
     background-image: url(./images/img4.jpg);
-    background-position: center;
+    background-position-y: 35%;
     transform: scale(1); 
     transition: transform 0.3s ease;
     position: relative; 
@@ -78,7 +78,7 @@
 .img5 {
     grid-area: img5;
     background-image: url(./images/img5.jpg);
-    background-position: center;
+    background-position-y: 5%;
     transform: scale(1); 
     transition: transform 0.3s ease;
     position: relative; 
