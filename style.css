@@ -575,7 +575,7 @@ ul {
 
 .img9 {
   grid-area: img9;
-  background-image: url(./images/img9.jpg);
+  background-image: url(images/img9.jpg);
   transform: scale(1);
   transition: transform 0.3s ease;
   position: relative;
