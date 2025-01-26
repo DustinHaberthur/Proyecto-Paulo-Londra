@@ -499,7 +499,7 @@ ul {
 
 .img1 {
   grid-area: img1;
-  background-image: url(images/img1.png);
+  background-image: url(./images/img1.png);
   transform: scale(1);
   transition: transform 0.3s ease;
   position: relative;
@@ -518,7 +518,7 @@ ul {
 
 .img3 {
   grid-area: img3;
-  background-image: url(../images/img3.jpg);
+  background-image: url(./images/img3.jpg);
   transform: scale(1);
   transition: transform 0.3s ease;
   position: relative;
@@ -527,7 +527,7 @@ ul {
 
 .img4 {
   grid-area: img4;
-  background-image: url(../images/img4.jpg);
+  background-image: url(./images/img4.jpg);
   background-position: center;
   transform: scale(1);
   transition: transform 0.3s ease;
@@ -537,7 +537,7 @@ ul {
 
 .img5 {
   grid-area: img5;
-  background-image: url(../images/img5.jpg);
+  background-image: url(./images/img5.jpg);
   background-position: center;
   transform: scale(1);
   transition: transform 0.3s ease;
@@ -547,7 +547,7 @@ ul {
 
 .img6 {
   grid-area: img6;
-  background-image: url(../images/img6.jpg);
+  background-image: url(./images/img6.jpg);
   background-position: center;
   transform: scale(1);
   transition: transform 0.3s ease;
@@ -557,7 +557,7 @@ ul {
 
 .img7 {
   grid-area: img7;
-  background-image: url(../images/img7.jpg);
+  background-image: url(./images/img7.jpg);
   transform: scale(1);
   transition: transform 0.3s ease;
   position: relative;
@@ -566,7 +566,7 @@ ul {
 
 .img8 {
   grid-area: img8;
-  background-image: url(../images/img8.jpg);
+  background-image: url(./images/img8.jpg);
   transform: scale(1);
   transition: transform 0.3s ease;
   position: relative;
@@ -575,7 +575,7 @@ ul {
 
 .img9 {
   grid-area: img9;
-  background-image: url(../images/img9.jpg);
+  background-image: url(./images/img9.jpg);
   transform: scale(1);
   transition: transform 0.3s ease;
   position: relative;
