@@ -499,7 +499,7 @@ ul {
 
 .img1 {
   grid-area: img1;
-  background-image: url(../images/img1.png);
+  background-image: url(images/img1.png);
   transform: scale(1);
   transition: transform 0.3s ease;
   position: relative;
@@ -508,7 +508,7 @@ ul {
 
 .img2 {
   grid-area: img2;
-  background-image: url(../images/img2.jpg);
+  background-image: url(./images/img2.jpg);
   background-position: center;
   transform: scale(1);
   transition: transform 0.3s ease;
