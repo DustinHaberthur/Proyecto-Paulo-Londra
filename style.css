@@ -8,6 +8,7 @@
 #body {
   background-image: url(images/background.jpg);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 @media screen and (max-width: 768px) {
@@ -52,6 +53,7 @@ ul {
 
 #footer i {
   font-size: 20px;
+  color: #212529;
 }
 
 #footer h3 {
